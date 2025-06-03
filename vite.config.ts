@@ -1,5 +1,4 @@
 /// <reference types="vitest" />
-import { Analytics } from "@vercel/analytics/next"
 import path from 'path'
 import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
