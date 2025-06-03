@@ -84,7 +84,7 @@ async function onDrag(event: DragEvent, data: any) {
       </li>
     </ul>
     <div flex>
-      <div v-bind="categoryContainerProps as any" important-w="22%">
+      <div v-bind="categoryContainerProps as any" important-w="30%">
         <ul v-bind="categoryWrapperProps" overflow-y="scroll" important-h="760px">
           <li
             v-for="(data, index) in categoryList" :key="data.data.path" h="40px" leading="40px" border-color="light"
